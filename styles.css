@@ -1,0 +1,209 @@
+body
+{
+    background-color: thistle;
+    
+    
+}
+
+.top
+{
+    height: 250px;
+    
+}
+
+
+nav
+{
+    background-color:cadetblue;
+    justify-content: space-between;
+    padding: 10px;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 10px solid greenyellow;
+    border-radius: 10px 10px 20px 20px;
+}
+
+
+nav h1
+{
+    color:bisque;
+    font-weight: bolder;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    
+}
+
+nav h1:hover
+{
+    color: palegreen;
+
+}
+
+
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+nav ul li.hgf:hover{
+    color: blue;  
+    border-bottom: 2px solid purple;
+    height: 18px;
+     
+     
+}
+nav ul li.come:hover{
+    color:red;
+    border-bottom: 2px solid pink;
+    height: 18px;
+}
+nav ul li.dsa:hover{
+    color: aqua;
+    border-bottom: 2px solid yellow;
+    height: 18px;
+}
+
+nav ul li.mnb:hover
+{
+    color: brown;
+    border-bottom: 2px solid white;
+    height: 18px;
+}
+
+.oth
+{
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.plm
+{
+    color: black;
+}
+.okm
+{
+    color: black;
+}
+.ijn
+{
+    color: black;
+}
+
+
+
+.srbox
+{
+   background-color: red; 
+    
+    
+}
+
+.sric
+{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    
+}
+
+.fhdr
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.bigcont
+{
+    height: 270px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.smallcont1
+{
+    background-color: bisque;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.webs
+{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.ulwbs
+{
+    justify-content: center;
+}
+
+.smallcont2
+{
+    height: 250px;
+    width: 300px;
+    background-color:bisque;
+    border-radius: 10px;
+}
+
+.softws
+{
+    text-align: center;
+    padding-top: 15px;
+}
+.smallcont3
+{
+    height: 250px;
+    width: 300px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.othersvs
+{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bigcont::before,
+.bigcont::after{
+    content: '';
+    position: absolute;
+    height: 40%;
+    bottom: -40px;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color:blue;
+    transform: skewY(-3deg);
+}
+
+.newcont
+{
+    height: 300px;
+    background-color: gold;
+    margin-top: 100px;
+}
